@@ -1,0 +1,30 @@
+.navContainer {
+  display: flex;
+  margin-bottom: 25px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  border-top: solid #ffbc42 3px;
+  border-bottom: solid #ffbc42 3px;
+  padding: 5px 0px;
+}
+
+.random {
+  position: relative;
+  left: 0px;
+  border-radius: 5px;
+  border: solid #b9375e 1px;
+  background: #47126b;
+  color: #b9375e;
+  font-size: 15px;
+  max-width: 150px;
+  min-width: 150px;
+  max-height: 30px;
+  min-height: 30px;
+}
+
+.random:hover {
+  box-shadow: inset 0 0 10px #b9375e;
+  font-size: 16px;
+}
+
